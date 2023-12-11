@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>OldRec.net</title>
+  <style>
+    /* General styles */
+    body {
+      background-color: #302c34;
+      color: white;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Contemporary font */
+      text-align: center;
+      margin: 0;
+      padding: 0;
+    }
+
+    /* Navigation bar styles */
+    nav {
+      background-color: #222;
+      padding: 10px 0;
+    }
+
+    nav ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      display: flex;
+      justify-content: center;
+    }
+
+    nav ul li {
+      margin: 0 20px;
+    }
+
+    nav ul li a {
+      text-decoration: none;
+      color: white;
+      font-size: 1.2em;
+      transition: color 0.3s ease-in-out;
+    }
+
+    nav ul li a:hover {
+      color: #ffcc00; /* Change color on hover */
+    }
+
+    /* Article styles */
+    .articles {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      grid-gap: 20px;
+      padding-top: 20px; /* Add space between nav and articles */
+    }
+
+    .article {
+      border: 1px solid #555;
+      padding: 15px;
+      text-align: left;
+      transition: transform 0.3s ease-in-out;
+      background-color: #444;
+      border-radius: 8px;
+      color: white;
+    }
+
+    .article:hover {
+      transform: scale(1.03);
+      box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+    }
+
+    .article h2 {
+      font-size: 1.5em;
+      margin-bottom: 10px;
+      color: white;
+    }
+
+    .article p {
+      font-size: 1em;
+    }
+
+    .article img {
+      width: 100%;
+      height: auto;
+      border-radius: 8px;
+      margin-bottom: 10px;
+    }
+
+    .article a {
+      text-decoration: none;
+      color: inherit;
+    }
+
+    /* About section styles */
+    .about-section {
+      min-height: 100vh; /* Set minimum height to full viewport height */
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      padding: 20px;
+      box-sizing: border-box;
+      text-align: center;
+    }
+
+    .about-section h2 {
+      font-size: 2em;
+      margin-bottom: 20px;
+    }
+
+    .about-section p {
+      font-size: 1.2em;
+      margin-bottom: 10px;
+    }
+
+    .about-section h6 {
+      font-size: 1em;
+      margin-bottom: 5px;
+    }
+  </style>
+</head>
+<body>
+  <nav>
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#articles">Articles</a></li>
+      <li><a href="#about">About</a></li>
+    </ul>
+  </nav>
+
+  <h1 id="home">OldRec.net</h1>
+  <p>The things you won't find on rec.net</p>
+
+  <div class="articles" id="articles">
+    <!-- Articles here -->
+    <!-- Example articles -->
+    <a href="https://ayayayaya.com" class="article">
+      <img src="https://developers.elementor.com/docs/assets/img/elementor-placeholder-image.png" alt="Pooks Doc Image">
+      <h2>Pooks Doc</h2>
+      <p>Pooks is a RecRoom dev that's been found to be doing things to kids?</p>
+    </a>
+
+    <a href="https://ayayayaya.com" class="article">
+      <img src="https://developers.elementor.com/docs/assets/img/elementor-placeholder-image.png" alt="Zendesk sucks Image">
+      <h2>Zendesk sucks</h2>
+      <p>Zendesk, ew.</p>
+    </a>
+
+    <a href="https://ayayayaya.com" class="article">
+      <img src="https://developers.elementor.com/docs/assets/img/elementor-placeholder-image.png" alt="Trash Rooms Image">
+      <h2>Trash Rooms after RecRoom Studio</h2>
+      <p>RecRoom Studio was a good idea, but the rooms that came after it are meh.</p>
+    </a>
+  </div>
+
+  <div class="about-section" id="about">
+    <h2>About</h2>
+    <p>Dear user, I've been playing Rec Room for about 5 years now. During this time, I've encountered various issues such as bans, timeouts, voice bans, etc., for seemingly no reason.</p>
+    <p>It's important to note that this website is not intended to be a dox of Rec Room. I have immense respect for Rec Room, understanding that certain aspects on this website are beyond their control.</p>
+    <p>The purpose of this website is to aid Rec Room's improvement as a platform. It serves as a means to inform them about occurrences in the game that they might not be aware of. In other words, just constructive criticism.</p>
+    <p>Thank you.</p>
+  </div>
+</body>
+</html>
